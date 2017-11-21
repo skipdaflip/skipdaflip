@@ -84,3 +84,5 @@ $AllResourceGroups = Get-AllResourceGroups
 if ((Check-DoubleResourceGroups -ResourceGroups $AllResourceGroups) -eq $true) {
 	Throw "One or more resource groups are defined multiple times"
 }
+
+# Added some text
